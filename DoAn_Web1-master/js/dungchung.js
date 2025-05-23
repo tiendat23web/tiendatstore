@@ -606,7 +606,7 @@ function addFooter() {
 
     <!-- ============== Footer ============= -->
     <div class="copy-right">
-        <p><a href="index.html">LDD Phone Store</a> - All rights reserved © 2021 - Designed by
+        <p><a href="index.html">Phone Store Tiến Đạt</a> - All rights reserved © 2025
             <span style="color: #eee; font-weight: bold">group 15th</span></p>
     </div>`);
 }
