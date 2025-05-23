@@ -606,7 +606,7 @@ function addFooter() {
 
     <!-- ============== Footer ============= -->
     <div class="copy-right">
-        <p><a href="index.html">Tiến Đạt Phone Store </a> - All rights reserved © 2025 - NHóm 3 con sói trưởng nhóm Tiến Đạt, thành viên: Minh Trí
+        <p><a href="index.html">Phone Store Tiến Đạt</a> - All rights reserved © 2025
             <span style="color: #eee; font-weight: bold">group 15th</span></p>
     </div>`);
 }
