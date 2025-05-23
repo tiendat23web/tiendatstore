@@ -43,7 +43,7 @@
                         <b>Địa chỉ:</b> 273 An Dương Vương, phường 3, Quận 5, TPHCM<br /><br />
                         <b>Telephone:</b> 028 3835 4409<br /><br />
                         <b>Hotline:</b> 097777777 - CSKH: 028 9996 777<br /><br />
-                        <b>Website:</b> <a href="https://tiendat23web.github.io/tiendatstore/">phonestore</a> <br /><br />
+                        <b>Website:</b> <a href="">điện thoai</a> <br /><br />
                         <b>E-mail:</b> 23082004dat@gmail.com<br /><br />
                         <b>Mã số thuế:</b> 01 02 03 04 05<br /><br />
                         <b>Tài khoản ngân hàng :</b><br /><br />
@@ -114,21 +114,31 @@
                             <th>Tỉ lệ công việc</th>
                         </tr>
                         <script>
-    var thongtin = [
-        ["Trương Tiến Đạt", "3117410091", "Nam", "CT23CD3106", "90"],
-        ["Nguyễn Minh Trí", "3117410065", "Nam", "CT23CD31", "85"]
-    ];
-
-    var tbody = document.getElementById("bang-thongtin");
-    for (var i = 0; i < thongtin.length; i++) {
-        var row = "<tr>";
-        for (var j = 0; j < thongtin[i].length; j++) {
-            row += "<td>" + thongtin[i][j] + "</td>";
-        }
-        row += "</tr>";
-        tbody.innerHTML += row;
-    }
-</script>
+                            var thongtin = [
+                                ["Trương Tiến Đạt", "3117410091", "Nam", "CT23CD3106", "80%"],
+                                ["Nguyễn Minh Trí", "3117410065", "Nam", "CT23CD3125", "20%"],
+                              
+                            ]
+                            for (var i = 0; i < thongtin.length; i++) {
+                                document.write(
+                                    `
+                                    <tr>
+                                        <td>` +
+                                    thongtin[i][0] + `</td>
+                                        <td>` +
+                                    thongtin[i][1] + `</td>
+                                        <td>` +
+                                    thongtin[i][2] + `</td>
+                                        <td>` +
+                                    thongtin[i][3] + `</td>
+                                        <td>` +
+                                    thongtin[i][4] +
+                                    `</td>
+                                    </tr>
+                                `
+                                )
+                            }
+                        </script>
                     </table>
                 </div>
 
